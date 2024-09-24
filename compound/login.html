@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/compound/style.css">
+</head>
+<body>
+    
+
+    <!-- nav bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">SIC</a> <!-- Logo -->
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="/compound/login.html">login in</a></li>
+            <li><a href="/compound/sign up.html">sign form</a></li>
+
+            <li><a href="#">About us</a></li>
+
+        </ul>
+    </nav>
+    <!-- nav bar end -->
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <input type="submit" value="Login">
+        
+        <div class="forgot-password">
+            <a href="#">Forgot your password?</a>
+        </div>
+    </form>
+</body>
+</html>
